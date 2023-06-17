@@ -27,7 +27,10 @@ body{
      
     opacity: 0.7;
     font-size: 1.25rem;
-    margin-top: 12px;
+    margin-top: 1rem;
+    line-height: 1.5;
+    max-width: 20rem;
+
 }
 .nav{
     color: aliceblue;
@@ -111,6 +114,14 @@ ul li a:hover{
     font-weight: 500;
 }
 
+#About p{
+    line-height: 1.625;
+}
+
+#About strong{
+    opacity: 0.7;
+}
+
 
 
  
@@ -150,8 +161,6 @@ ul li a:hover{
     margin-bottom: 1.25rem;
 }
 .b1:hover  {
-     /* From https://css.glass */
-/* From https://css.glass */
 background: rgba(222, 222, 231, 0.13);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
