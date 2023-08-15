@@ -59,6 +59,28 @@ body{
     font-weight: 500;
     
 }
+
+
+
+/* nav ul li img {
+    margin-top: 5rem;
+    padding-right: 2.5rem;
+    width: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.socially{
+    display: flex;
+    margin-top: 7rem;
+}
+
+.socially li{
+    width: 2rem;
+    margin-right: 2.5rem;
+}
+
 .dash{
     line-height: 2.2;
     display: flex;
@@ -83,9 +105,9 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: space-evenly;
-    padding:6rem 5rem 7rem 0 ;
+    padding:6rem 3rem 7rem 0 ;
     font-family: 'Inter', sans-serif;
-    margin-right: 10rem;
+    margin-right: 6rem;
     font-size: large;
     float:right;
     padding-left: 55%;
@@ -94,17 +116,21 @@ ul li a:hover{
      
     width: 35rem;
     height: 50rem;
-    padding:6rem 0 7rem 18rem;
+    padding:6rem 0 7rem 14rem;
     position: fixed;
     float: left;
     
 }
-.social-media{
+.socials ul{
+    color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 25rem;
     padding-right: 17rem;
 }
+
+
 .social-media img{
     padding-right: 2.5rem;
     width: 2.25rem;
